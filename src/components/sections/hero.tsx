@@ -8,7 +8,7 @@ import { ArrowLink } from "@/components/ui/arrow-link";
 import { GpuLens } from "@/components/ui/gpu-lens";
 import { SliderControls } from "@/components/ui/slider-controls";
 
-/** Full width hero that preserves the original four-slide story without the WordPress slider runtime. */
+/** Full width hero keeps Storyful's editorial story flow without the WordPress slider runtime. */
 export function HeroSection() {
   const [activeSlide, setActiveSlide] = useState(0);
   const slide = heroSlides[activeSlide];

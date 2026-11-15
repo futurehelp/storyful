@@ -21,7 +21,7 @@ type GpuApi = {
   requestAdapter(): Promise<{ requestDevice(): Promise<GpuDevice> } | null>;
 };
 
-/** Adds a low-contrast ambient texture with a graceful canvas fallback. */
+/** Adds a low-contrast ambient signal field with a graceful canvas fallback. */
 export function GpuLens() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -73,7 +73,7 @@ export function GpuLens() {
         const pass = encoder.beginRenderPass({
           colorAttachments: [{
             view: context.getCurrentTexture().createView(),
-            clearValue: { r: 0.09, g: 0.01, b: 0.025, a: 0 },
+            clearValue: { r: 0.09, g: 0.025, b: 0.035, a: 0 },
             loadOp: "clear",
             storeOp: "store",
           }],

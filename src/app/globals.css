@@ -49,7 +49,7 @@ h3 { font-size: 1.45rem; line-height: 1; margin-bottom: 14px; }
 .hero-stage { aspect-ratio: 2.1 / 1; background: #0b2143; overflow: hidden; position: relative; }
 .hero-image { inset: 0; position: absolute; }
 .hero-image img { object-fit: cover; }
-.hero-stage::after { background: linear-gradient(90deg, rgba(7,21,46,.83), rgba(7,21,46,.22) 60%, rgba(7,21,46,.04)); content: ""; inset: 0; position: absolute; }
+.hero-stage::after { background: linear-gradient(90deg, rgba(23,21,26,.9), rgba(23,21,26,.44) 52%, rgba(23,21,26,.08)); content: ""; inset: 0; position: absolute; }
 .hero-copy { display: flex; flex-direction: column; inset: 0; justify-content: center; max-width: 760px; padding: clamp(26px, 6vw, 80px); position: absolute; z-index: 2; }
 .hero-copy h1 { color: var(--white); }
 .hero-description { color: rgba(255,255,255,.8); font-family: var(--serif); font-size: clamp(1.1rem, 1.8vw, 1.5rem); line-height: 1.15; max-width: 500px; }
@@ -88,7 +88,7 @@ h3 { font-size: 1.45rem; line-height: 1; margin-bottom: 14px; }
 .about-image { min-height: 600px; overflow: hidden; position: relative; }
 .about-image img { object-fit: contain; padding: 40px; }
 .search-section { background: var(--blue); color: var(--white); min-height: 480px; overflow: hidden; position: relative; }
-.search-section::before { background: url("/images/source/squares.png") center / cover; content: ""; filter: contrast(1.08) saturate(1.05); inset: 0; opacity: .2; position: absolute; }
+.search-section::before { background: url("/images/source/intelligence-hero.png") center / cover; content: ""; filter: contrast(1.08) saturate(1.05); inset: 0; opacity: .2; position: absolute; }
 .search-overlay { background: linear-gradient(90deg, rgba(7,21,46,.74), rgba(7,21,46,.18)); inset: 0; position: absolute; }
 .search-content { padding-bottom: 105px; padding-top: 105px; position: relative; }
 .search-content h2 { font-size: clamp(4rem, 8vw, 8.5rem); max-width: 760px; }

@@ -15,7 +15,7 @@ export function AboutSection() {
           <ArrowLink href="#contact" className="button button-light">See how we work</ArrowLink>
         </Reveal>
         <Reveal className="about-image" delay={0.12}>
-          <Image src="/images/source/verified-by.avif" alt="Verified by Storyful visual" fill sizes="(max-width: 860px) 100vw, 50vw" />
+          <Image src="/images/source/verification-team.png" alt="Storyful verification team reviewing eyewitness video" fill sizes="(max-width: 860px) 100vw, 50vw" />
         </Reveal>
       </div>
     </section>

@@ -12,14 +12,14 @@ export const navigation: NavItem[] = [
 ];
 
 export const heroSlides: HeroSlide[] = [
-  { eyebrow: "REPUTATION INTELLIGENCE", title: "Verified. Contextualized. Decision-grade.", description: "Turn fast-moving online signals into the clarity leaders need to protect trust, manage risk, and move with confidence.", image: "/images/source/deciphering.avif", href: "#services", cta: "Explore intelligence" },
-  { eyebrow: "VERIFIED VIDEO", title: "The truth behind the moment.", description: "Find, verify, clear, and publish the eyewitness video that makes the story matter.", image: "/images/source/verified-video.avif", href: "#about", cta: "Explore verified video" },
+  { eyebrow: "REPUTATION INTELLIGENCE", title: "Verified. Contextualized. Decision-grade.", description: "Turn fast-moving online signals into the clarity leaders need to protect trust, manage risk, and move with confidence.", image: "/images/source/intelligence-hero.png", href: "#services", cta: "Explore intelligence" },
+  { eyebrow: "VERIFIED VIDEO", title: "The truth behind the moment.", description: "Find, verify, clear, and publish the eyewitness video that makes the story matter.", image: "/images/source/verification-team.png", href: "#about", cta: "Explore verified video" },
   { eyebrow: "STORYFUL / FROM DOW JONES", title: "See what others miss.", description: "Editorial rigor and modern technology for brands, institutions, and newsrooms under constant scrutiny.", image: "/images/source/newswire.png", href: "#contact", cta: "Talk to Storyful" },
 ];
 
 export const services: Service[] = [
   { number: "01", title: "Risk intelligence", description: "Anticipate emerging issues, understand the voices shaping them, and act before a signal becomes a crisis.", image: "/images/source/drone.avif", href: "#contact" },
-  { number: "02", title: "Reputation intelligence", description: "Measure how people experience your brand in the real world, then build the context to respond intelligently.", image: "/images/source/deciphering.avif", href: "#contact" },
+  { number: "02", title: "Reputation intelligence", description: "Measure how people experience your brand in the real world, then build the context to respond intelligently.", image: "/images/source/verification-team.png", href: "#contact" },
   { number: "03", title: "Newswire", description: "Source and license verified eyewitness video with the editorial confidence to publish it everywhere.", image: "/images/source/newswire.png", href: "#contact" },
   { number: "04", title: "Commercial licensing", description: "Unlock the value of real moments through rights-cleared content built for modern campaigns and platforms.", image: "/images/source/verified-by.avif", href: "#contact" },
 ];

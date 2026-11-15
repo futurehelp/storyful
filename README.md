@@ -9,6 +9,7 @@ A polished, responsive rebuild of the Storyful homepage. The project keeps the r
 - Responsive navigation with Framer Motion dropdowns and an accessible mobile drawer
 - Motion-enabled hero carousel with autoplay, progress controls, and keyboard-safe buttons
 - Subtle GPU lens treatment for depth without making the page dependent on WebGPU
+- Photorealistic editorial imagery for intelligence and verification workflows
 - Service cards, process section, partner proof rail, contact form state, and responsive footer
 - Strong contrast, semantic landmarks, reduced-motion support, and mobile layouts
 - No iframe and no runtime dependency on the WordPress frontend
